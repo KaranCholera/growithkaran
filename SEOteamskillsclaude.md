@@ -1,9 +1,21 @@
-[seo-team-skills.md](https://github.com/user-attachments/files/27376641/seo-team-skills.md)
+[SKILL.md](https://github.com/user-attachments/files/27385760/SKILL.md)
+---
+name: seo-automation-team
+description: >
+  Full-stack SEO automation skill covering CRO auditing, keyword planning, on-page optimisation,
+  off-page authority building, backlink acquisition, technical SEO, content strategy, local SEO,
+  and analytics reporting. Use this skill whenever the user asks about SEO workflows, SEO team
+  automation, ranking strategies, backlink building, CRO audits, keyword research, on-page or
+  off-page SEO tasks, content planning for organic growth, or any multi-agent SEO system.
+  Also trigger for B2C brand SEO, e-commerce SEO, or any request to build, audit, or optimise
+  an automated SEO pipeline.
+---
+
 # SEO Automation Team — Full Skills Handbook
 
-> **Brand type:** B2C  
-> **Use case:** Brand building & organic growth  
-> **System:** AI-powered multi-agent SEO team  
+> **Brand type:** B2C
+> **Use case:** Brand building & organic growth
+> **System:** AI-powered multi-agent SEO team
 > **Cycle frequency:** Every 1 hour (CRO audit) → continuous agent execution
 
 ---
@@ -15,10 +27,10 @@
 3. [On-Page SEO Agent](#3-on-page-seo-agent)
 4. [Off-Page SEO Agent](#4-off-page-seo-agent)
 5. [Backlink Agent](#5-backlink-agent)
-6. [Technical SEO Agent](#6-technical-seo-agent) *(added)*
-7. [Content Strategy Agent](#7-content-strategy-agent) *(added)*
-8. [Local SEO Agent](#8-local-seo-agent) *(added)*
-9. [Analytics & Reporting Agent](#9-analytics--reporting-agent) *(added)*
+6. [Technical SEO Agent](#6-technical-seo-agent)
+7. [Content Strategy Agent](#7-content-strategy-agent)
+8. [Local SEO Agent](#8-local-seo-agent)
+9. [Analytics & Reporting Agent](#9-analytics--reporting-agent)
 10. [Agent Workflow & Collaboration Map](#10-agent-workflow--collaboration-map)
 11. [CEO Approval Protocol](#11-ceo-approval-protocol)
 
@@ -37,7 +49,7 @@
 ### Core skills
 
 **Site audit**
-- Crawls all pages and flags broken elements, missing tags, slow load times
+- Crawls all pages and flags broken elements, missing tags, and slow load times
 - Scores Core Web Vitals: LCP (target < 2s), CLS (target < 0.1), FID (target < 100ms)
 - Checks mobile responsiveness across key device breakpoints
 
@@ -58,9 +70,9 @@
 
 ### Output format
 - CRO Score per page (0–100)
-- Priority level per issue: 🔴 Critical / 🟡 High / 🟢 Low
+- Priority level per issue: Critical / High / Low
 - Estimated traffic impact per fix
-- Email brief to relevant agents
+- Email brief dispatched to relevant agents
 
 ### KPIs tracked
 - Bounce rate
@@ -95,7 +107,7 @@
 **Competitor keyword gap analysis**
 - Scrapes top 5 competitors' ranking keywords
 - Identifies keywords competitors rank for that the brand does not
-- Prioritises gaps by volume × difficulty score
+- Prioritises gaps by volume x difficulty score
 
 **SERP feature targeting**
 - Identifies featured snippet, People Also Ask, and image pack opportunities
@@ -103,12 +115,13 @@
 - Tracks brand's current SERP feature ownership
 
 **Keyword shortlisting**
-- Scores each keyword: Volume × (1 / Difficulty) × Intent match
+- Scores each keyword: Volume x (1 / Difficulty) x Intent match
 - Produces a final shortlist of 8–15 priority keywords per cycle
 - Assigns each keyword to a specific page or content piece
 
 ### Output format
-| Keyword | Volume | KD | Intent | SERP feature | Target page | Rank goal | Timeline |
+
+| Keyword | Vol/mo | KD | Intent | SERP Feature | Target Page | Rank Goal | Timeline |
 |---|---|---|---|---|---|---|---|
 | example keyword | 12,400 | 28 | Transactional | None | /product | Top 3 | 4–6 wks |
 
@@ -122,24 +135,24 @@
 
 ## 3. On-Page SEO Agent
 
-**Role:** Content & technical on-page optimisation — executes fixes on the site.
+**Role:** Content & technical on-page optimisation — executes fixes directly on the site.
 
 ### What it does
 - Receives briefs from CRO Agent and keyword targets from Keyword Planner
 - Optimises all on-page elements across the site
-- Writes and publishes SEO-optimised content
+- Writes and commissions SEO-optimised content
 
 ### Core skills
 
 **Meta tag optimisation**
 - Rewrites title tags (50–60 chars, primary keyword in first 30 chars)
-- Rewrites meta descriptions (150–160 chars, includes CTA, keyword)
-- Ensures no duplicate meta across pages
+- Rewrites meta descriptions (150–160 chars, includes CTA and keyword)
+- Ensures no duplicate meta tags across pages
 
 **Heading structure**
 - Audits and fixes H1/H2/H3 hierarchy across all pages
-- Ensures one H1 per page, contains primary keyword
-- Adds H2s for each major content section with secondary keywords
+- Ensures one H1 per page containing the primary keyword
+- Adds H2s for each major section with secondary keywords
 
 **Content optimisation**
 - Checks keyword density (target 1–2% for primary keyword)
@@ -171,7 +184,7 @@
 ### Output format
 - Page-by-page optimisation log
 - Content brief document per new piece
-- Internal link map (spreadsheet)
+- Internal link map
 - Before/after meta tag report
 
 ### KPIs tracked
@@ -185,18 +198,18 @@
 
 ## 4. Off-Page SEO Agent
 
-**Role:** Brand authority building — grows the brand's presence and reputation across the web.
+**Role:** Brand authority building — grows the brand's presence across the web.
 
 ### What it does
 - Receives CRO brief on brand authority gaps
 - Manages digital PR, guest posting, influencer outreach, and brand mentions
-- Works in parallel with the Backlink Agent (complementary, not duplicate)
+- Works in parallel with the Backlink Agent (complementary roles)
 
 ### Core skills
 
 **Digital PR**
 - Identifies trending topics that align with the brand's category
-- Pitches stories to beauty, lifestyle, and health publications (DA 40+)
+- Pitches stories to relevant publications (DA 40+)
 - Monitors journalist requests (HARO, Qwoted, SourceBottle)
 - Tracks press mentions and measures DA of coverage
 
@@ -212,7 +225,7 @@
 
 **Influencer & UGC collaboration**
 - Identifies micro-influencers (10k–100k followers) in the brand niche
-- Outreaches for product collaboration / review content
+- Outreaches for product collaboration and review content
 - Ensures content includes a linkable brand mention or bio link
 
 **Competitor brand monitoring**
@@ -223,7 +236,6 @@
 **Social signal amplification**
 - Shares all new content across relevant social channels
 - Submits content to relevant communities (Reddit, Quora, niche forums)
-- Builds topical authority signals through consistent content distribution
 
 ### Output format
 - Weekly outreach tracker (target, DA, status, link acquired)
@@ -245,20 +257,20 @@
 **Role:** Link acquisition specialist — builds high-quality backlinks through proven techniques.
 
 ### What it does
-- Specialises in structured link-building campaigns
+- Runs structured link-building campaigns
 - Targets high-DA, niche-relevant domains
-- Works alongside Off-Page Agent (Off-Page = brand/PR, Backlink = technical link building)
+- Works alongside Off-Page Agent (Off-Page = brand/PR; Backlink = technical link building)
 
 ### Core skills
 
 **Broken link building**
 - Scans competitor and niche websites for broken outbound links
-- Creates or identifies existing brand content that is a suitable replacement
-- Sends personalised outreach to replace broken link with brand link
+- Creates or identifies existing brand content as a suitable replacement
+- Sends personalised outreach to replace the broken link with the brand's link
 
 **Resource page link building**
-- Identifies "best of" and resource pages in the niche
-- Pitches the brand's content/product as a resource addition
+- Identifies resource and "best of" pages in the niche
+- Pitches brand content/product as a resource addition
 - Target: 10+ resource page links per month
 
 **Skyscraper technique**
@@ -273,7 +285,7 @@
 
 **Niche edit / link insertion**
 - Identifies live articles on niche sites that could naturally include a brand link
-- Outreaches to site owners for a contextual link insertion
+- Outreaches to site owners for contextual link insertion
 - Ensures editorial relevance and natural anchor text
 
 **Competitor backlink replication**
@@ -298,13 +310,11 @@
 - Domain Rating / Domain Authority trend
 - Average DA of acquired links
 - Link velocity (links per week)
-- Toxic link % (target < 5%)
+- Toxic link percentage (target: less than 5%)
 
 ---
 
 ## 6. Technical SEO Agent
-
-*(Added — critical for B2C brands with large product catalogues)*
 
 **Role:** Site health & crawlability — ensures Google can find, crawl, and index every page.
 
@@ -322,7 +332,7 @@
 **Site speed optimisation**
 - Implements lazy loading, image compression, browser caching
 - Minimises render-blocking resources (CSS/JS)
-- Monitors Core Web Vitals (LCP, CLS, FID) — alerts if any score drops
+- Monitors Core Web Vitals and alerts if any score drops
 
 **Structured data & rich results**
 - Validates all schema markup via Google's Rich Results Test
@@ -331,7 +341,7 @@
 
 **Canonicalisation**
 - Adds canonical tags to all pages to prevent duplicate content
-- Manages hreflang tags for any multi-language pages
+- Manages hreflang tags for multi-language pages
 - Resolves duplicate content issues from URL parameters
 
 **Mobile & UX technical checks**
@@ -347,8 +357,6 @@
 ---
 
 ## 7. Content Strategy Agent
-
-*(Added — essential for B2C brand building)*
 
 **Role:** Topical authority builder — plans and governs the brand's content ecosystem.
 
@@ -369,25 +377,23 @@
 - Ensures balanced mix: educational / product / brand / seasonal
 
 **Content performance audit**
-- Identifies underperforming content (traffic < target, low dwell time)
+- Identifies underperforming content (traffic below target, low dwell time)
 - Recommends refresh, consolidate, or delete for each piece
 - Tracks content decay and schedules refreshes every 6 months
 
 **Brand voice & tone guidelines**
-- Maintains SEO content that is consistent with brand's tone (luxury, premium, accessible)
-- Ensures content balances keyword inclusion with natural readability
+- Ensures SEO content is consistent with the brand's tone
+- Balances keyword inclusion with natural, high-quality readability
 
 ### KPIs tracked
 - Organic traffic per content piece
 - Dwell time / time on page
 - Social shares per content piece
-- Content-to-ranking ratio (pieces that rank in top 10)
+- Content-to-ranking ratio (pieces ranking in top 10)
 
 ---
 
 ## 8. Local SEO Agent
-
-*(Added — relevant for B2C brands with physical presence or India-specific targeting)*
 
 **Role:** Local & regional visibility — ranks the brand in geo-specific searches.
 
@@ -405,7 +411,7 @@
 
 **Citation building**
 - Ensures consistent NAP (Name, Address, Phone) across all directories
-- Submits to India-relevant directories: Justdial, Sulekha, IndiaMART, etc.
+- Submits to relevant local directories (e.g. Justdial, Sulekha, IndiaMART)
 
 **Review generation**
 - Automates post-purchase review request emails
@@ -421,9 +427,7 @@
 
 ## 9. Analytics & Reporting Agent
 
-*(Added — ties all agents together with data)*
-
-**Role:** Data pipeline & insight layer — measures what all agents are doing and translates it into decisions.
+**Role:** Data pipeline & insight layer — measures all agent activity and translates it into decisions.
 
 ### Core skills
 
@@ -448,11 +452,11 @@
 
 **CEO report generation**
 - Summarises the full cycle in a short executive brief
-- Includes: what was done, current rankings, projected rankings, traffic forecast, revenue impact
-- Sends for approval before next cycle begins
+- Includes: completed tasks, current rankings, projected rankings, traffic forecast, revenue impact
+- Sends for CEO approval before next cycle begins
 
 ### KPIs tracked (master dashboard)
-- Organic sessions (weekly/monthly)
+- Organic sessions (weekly / monthly)
 - Keywords in top 3 / 10 / 20
 - Domain Rating
 - Referring domains
@@ -466,19 +470,19 @@
 
 ```
 HOUR 0
-  └── CRO Agent runs full site audit (hourly)
-        ├── → Email brief → On-Page Agent  (meta, content, schema fixes)
-        ├── → Email brief → Off-Page Agent  (authority gaps, PR opportunities)
-        └── → Summary → Keyword Planner Agent  (page intent gaps)
+  └── CRO Agent runs full site audit (every hour)
+        ├── Email brief → On-Page Agent   (meta, content, schema fixes)
+        ├── Email brief → Off-Page Agent  (authority gaps, PR opportunities)
+        └── Summary    → Keyword Planner  (high-intent page gaps)
 
-HOUR 1–4 (parallel execution)
+HOUR 1–4  (all agents run in parallel)
   ├── Keyword Planner Agent
   │     ├── Shortlists 8–15 priority keywords
   │     └── Feeds targets → On-Page + Off-Page + Backlink agents
   │
   ├── On-Page Agent
   │     ├── Executes meta, H1, schema, content, internal link fixes
-  │     └── Writes content briefs for Content Strategy Agent
+  │     └── Writes content briefs → Content Strategy Agent
   │
   ├── Off-Page Agent
   │     ├── Runs PR pitches, influencer outreach, mention conversion
@@ -489,17 +493,17 @@ HOUR 1–4 (parallel execution)
   │     └── Reports new links → Analytics Agent
   │
   └── Technical SEO Agent
-        ├── Monitors crawl health, speeds, Core Web Vitals
+        ├── Monitors crawl health, speeds, Core Web Vitals continuously
         └── Flags critical issues → On-Page Agent for immediate fix
 
 END OF CYCLE
   └── Analytics & Reporting Agent
-        ├── Compiles all agent outputs into cycle report
+        ├── Compiles all agent outputs into a cycle report
         ├── Calculates KPIs and ranking projections
-        └── → CEO Report sent for approval
+        └── Sends CEO Report for approval
 
 CEO APPROVAL
-  └── On approval → All agents begin next cycle
+  └── On approval → all agents begin the next cycle
 ```
 
 ---
@@ -512,7 +516,7 @@ At the end of every cycle, the Analytics Agent generates a **CEO Brief** contain
 A bullet-point summary of every agent's completed tasks this cycle.
 
 **Section 2 — Rankings update**
-Table of top 10 target keywords: current rank → projected rank → estimated timeline.
+Table of top 10 target keywords: current rank, projected rank, and estimated timeline.
 
 **Section 3 — Traffic & revenue forecast**
 - Projected organic sessions (next 30 / 60 / 90 days)
@@ -527,11 +531,11 @@ One-click (or one-reply) approval to trigger the next cycle.
 
 ---
 
-## Quick Reference — All 9 Agents at a Glance
+## Quick Reference — All 9 Agents
 
-| Agent | Trigger | Primary output | Cycle frequency |
+| Agent | Trigger | Primary Output | Frequency |
 |---|---|---|---|
-| CRO Agent | Every hour | Action briefs to all agents | Hourly |
+| CRO Agent | Timer | Action briefs to all agents | Hourly |
 | Keyword Planner | Per CRO cycle | Keyword shortlist | Per cycle |
 | On-Page SEO | Per CRO brief | Page optimisations + content briefs | Per cycle |
 | Off-Page SEO | Per CRO brief | PR placements + outreach | Per cycle |
@@ -543,4 +547,4 @@ One-click (or one-reply) approval to trigger the next cycle.
 
 ---
 
-*Document version: 1.0 | System: SEO Automation Command Center | Brand type: B2C*
+*Version: 1.0 | System: SEO Automation Command Center | Brand type: B2C*
