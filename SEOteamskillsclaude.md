@@ -1,4 +1,4 @@
-[SKILL.md](https://github.com/user-attachments/files/27385760/SKILL.md)
+[SKILL (1).md](https://github.com/user-attachments/files/27399124/SKILL.1.md)
 ---
 name: seo-automation-team
 description: >
