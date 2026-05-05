@@ -1,7 +1,3 @@
-name: seo-automation-team
-description: Full-stack SEO automation skill covering CRO auditing, keyword planning, on-page optimisation, off-page authority building, backlink acquisition, technical SEO, content strategy, local SEO, and analytics reporting. Use this skill whenever the user asks about SEO workflows, SEO team automation, ranking strategies, backlink building, CRO audits, keyword research, on-page or off-page SEO tasks, content planning for organic growth, or any multi-agent SEO system. Also trigger for B2C brand SEO, e-commerce SEO, or any request to build, audit, or optimise an automated SEO pipeline.
----
-
 # SEO Automation Team — Full Skills Handbook
 
 > **Brand type:** B2C
