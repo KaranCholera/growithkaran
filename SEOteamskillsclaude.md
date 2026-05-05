@@ -1,14 +1,5 @@
-[SKILL (1).md](https://github.com/user-attachments/files/27399124/SKILL.1.md)
----
 name: seo-automation-team
-description: >
-  Full-stack SEO automation skill covering CRO auditing, keyword planning, on-page optimisation,
-  off-page authority building, backlink acquisition, technical SEO, content strategy, local SEO,
-  and analytics reporting. Use this skill whenever the user asks about SEO workflows, SEO team
-  automation, ranking strategies, backlink building, CRO audits, keyword research, on-page or
-  off-page SEO tasks, content planning for organic growth, or any multi-agent SEO system.
-  Also trigger for B2C brand SEO, e-commerce SEO, or any request to build, audit, or optimise
-  an automated SEO pipeline.
+description: Full-stack SEO automation skill covering CRO auditing, keyword planning, on-page optimisation, off-page authority building, backlink acquisition, technical SEO, content strategy, local SEO, and analytics reporting. Use this skill whenever the user asks about SEO workflows, SEO team automation, ranking strategies, backlink building, CRO audits, keyword research, on-page or off-page SEO tasks, content planning for organic growth, or any multi-agent SEO system. Also trigger for B2C brand SEO, e-commerce SEO, or any request to build, audit, or optimise an automated SEO pipeline.
 ---
 
 # SEO Automation Team — Full Skills Handbook
@@ -22,7 +13,7 @@ description: >
 
 ## Table of Contents
 
-1. [CRO Agent — Conversion Rate Optimisation](#1-cro-agent)
+1. [CRO Agent](#1-cro-agent)
 2. [Keyword Planner Agent](#2-keyword-planner-agent)
 3. [On-Page SEO Agent](#3-on-page-seo-agent)
 4. [Off-Page SEO Agent](#4-off-page-seo-agent)
@@ -55,7 +46,7 @@ description: >
 
 **Heatmap & funnel analysis**
 - Analyses click maps, scroll depth, and rage clicks on top 10 pages
-- Identifies funnel drop-off points (e.g. cart → checkout → payment)
+- Identifies funnel drop-off points (e.g. cart to checkout to payment)
 - Flags CTAs that are below the fold or poorly worded
 
 **CTA & conversion scoring**
@@ -63,23 +54,17 @@ description: >
 - Benchmarks against competitor landing pages
 - Recommends A/B test hypotheses
 
-**Brief generation (agent output)**
+**Brief generation**
 - Writes structured email briefs to On-Page Agent (content + meta fixes)
 - Writes structured email briefs to Off-Page Agent (authority + PR gaps)
 - Sends summary to Keyword Planner Agent (high-intent page gaps)
-
-### Output format
-- CRO Score per page (0–100)
-- Priority level per issue: Critical / High / Low
-- Estimated traffic impact per fix
-- Email brief dispatched to relevant agents
 
 ### KPIs tracked
 - Bounce rate
 - Cart abandonment rate
 - Average session duration
 - Conversion rate (CVR) per page
-- CRO score trend (week-on-week)
+- CRO score trend week-on-week
 
 ---
 
@@ -105,7 +90,7 @@ description: >
 - Aligns intent with content type recommendation (blog / landing page / product page)
 
 **Competitor keyword gap analysis**
-- Scrapes top 5 competitors' ranking keywords
+- Scrapes top 5 competitors ranking keywords
 - Identifies keywords competitors rank for that the brand does not
 - Prioritises gaps by volume x difficulty score
 
@@ -116,14 +101,8 @@ description: >
 
 **Keyword shortlisting**
 - Scores each keyword: Volume x (1 / Difficulty) x Intent match
-- Produces a final shortlist of 8–15 priority keywords per cycle
+- Produces a final shortlist of 8 to 15 priority keywords per cycle
 - Assigns each keyword to a specific page or content piece
-
-### Output format
-
-| Keyword | Vol/mo | KD | Intent | SERP Feature | Target Page | Rank Goal | Timeline |
-|---|---|---|---|---|---|---|---|
-| example keyword | 12,400 | 28 | Transactional | None | /product | Top 3 | 4–6 wks |
 
 ### KPIs tracked
 - Keywords in top 3 / top 10 / top 20
@@ -145,8 +124,8 @@ description: >
 ### Core skills
 
 **Meta tag optimisation**
-- Rewrites title tags (50–60 chars, primary keyword in first 30 chars)
-- Rewrites meta descriptions (150–160 chars, includes CTA and keyword)
+- Rewrites title tags (50 to 60 chars, primary keyword in first 30 chars)
+- Rewrites meta descriptions (150 to 160 chars, includes CTA and keyword)
 - Ensures no duplicate meta tags across pages
 
 **Heading structure**
@@ -155,8 +134,8 @@ description: >
 - Adds H2s for each major section with secondary keywords
 
 **Content optimisation**
-- Checks keyword density (target 1–2% for primary keyword)
-- Adds LSI (Latent Semantic Indexing) keywords naturally within content
+- Checks keyword density (target 1 to 2% for primary keyword)
+- Adds LSI keywords naturally within content
 - Improves readability score (target Flesch-Kincaid 60+)
 - Adds word count to thin pages (target 1,200+ words for pillar pages)
 
@@ -168,30 +147,20 @@ description: >
 
 **Internal linking**
 - Builds a topical cluster linking structure
-- Adds 3–5 internal links per new page to relevant cluster pages
+- Adds 3 to 5 internal links per new page to relevant cluster pages
 - Fixes orphan pages (pages with zero internal links)
-- Optimises anchor text diversity (branded / exact / partial match / generic)
+- Optimises anchor text diversity
 
 **Image SEO**
-- Writes descriptive alt text for every image (includes keyword where natural)
+- Writes descriptive alt text for every image
 - Compresses images to WebP format
 - Adds structured file names (keyword-descriptive-name.webp)
 
-**Content brief writing**
-- Writes detailed briefs for new blog posts: angle, keywords, outline, word count, SERP target
-- Assigns each brief to a content topic cluster
-
-### Output format
-- Page-by-page optimisation log
-- Content brief document per new piece
-- Internal link map
-- Before/after meta tag report
-
 ### KPIs tracked
-- Pages with optimised meta: % complete
-- Schema coverage: % of eligible pages
+- Pages with optimised meta: percentage complete
+- Schema coverage: percentage of eligible pages
 - Internal link equity score
-- Organic CTR (from Google Search Console)
+- Organic CTR from Google Search Console
 - Average ranking position for target keywords
 
 ---
@@ -203,14 +172,14 @@ description: >
 ### What it does
 - Receives CRO brief on brand authority gaps
 - Manages digital PR, guest posting, influencer outreach, and brand mentions
-- Works in parallel with the Backlink Agent (complementary roles)
+- Works in parallel with the Backlink Agent
 
 ### Core skills
 
 **Digital PR**
 - Identifies trending topics that align with the brand's category
 - Pitches stories to relevant publications (DA 40+)
-- Monitors journalist requests (HARO, Qwoted, SourceBottle)
+- Monitors journalist requests via HARO, Qwoted, and SourceBottle
 - Tracks press mentions and measures DA of coverage
 
 **Guest posting**
@@ -223,28 +192,17 @@ description: >
 - Sends outreach to convert unlinked mentions to dofollow links
 - Target: convert 30%+ of unlinked mentions per cycle
 
-**Influencer & UGC collaboration**
-- Identifies micro-influencers (10k–100k followers) in the brand niche
+**Influencer and UGC collaboration**
+- Identifies micro-influencers (10k to 100k followers) in the brand niche
 - Outreaches for product collaboration and review content
 - Ensures content includes a linkable brand mention or bio link
-
-**Competitor brand monitoring**
-- Tracks competitor PR coverage and guest post placements
-- Identifies publications covering competitors but not the brand
-- Pitches those same publications with a differentiated angle
 
 **Social signal amplification**
 - Shares all new content across relevant social channels
 - Submits content to relevant communities (Reddit, Quora, niche forums)
 
-### Output format
-- Weekly outreach tracker (target, DA, status, link acquired)
-- PR placement log (publication, date, DA, anchor text, target URL)
-- Influencer collaboration pipeline
-- Unlinked mention report
-
 ### KPIs tracked
-- Referring domain count (monthly growth)
+- Referring domain count monthly growth
 - Press placements secured
 - Influencer mentions
 - Social referral traffic
@@ -265,48 +223,41 @@ description: >
 
 **Broken link building**
 - Scans competitor and niche websites for broken outbound links
-- Creates or identifies existing brand content as a suitable replacement
-- Sends personalised outreach to replace the broken link with the brand's link
+- Identifies existing brand content as a suitable replacement
+- Sends personalised outreach to replace the broken link
 
 **Resource page link building**
-- Identifies resource and "best of" pages in the niche
-- Pitches brand content/product as a resource addition
+- Identifies resource and best-of pages in the niche
+- Pitches brand content as a resource addition
 - Target: 10+ resource page links per month
 
 **Skyscraper technique**
-- Identifies top-performing content in the niche (by backlink count)
+- Identifies top-performing content in the niche by backlink count
 - Creates a superior version of that content for the brand
-- Outreaches to all sites linking to the original, pitching the better version
+- Outreaches to all sites linking to the original
 
 **HARO / journalist outreach**
-- Monitors Help a Reporter Out (HARO) for relevant queries
+- Monitors Help a Reporter Out for relevant queries
 - Submits expert quotes on behalf of the brand
 - Tracks pick-up rate and resulting backlinks
 
 **Niche edit / link insertion**
-- Identifies live articles on niche sites that could naturally include a brand link
+- Identifies live articles on niche sites that could include a brand link
 - Outreaches to site owners for contextual link insertion
-- Ensures editorial relevance and natural anchor text
 
 **Competitor backlink replication**
 - Exports full backlink profile of top 3 competitors
 - Identifies the top 50 links that can be replicated
 - Executes outreach campaign to win those same links
 
-**Toxic link audit & disavow**
-- Scans backlink profile for spammy, low-quality, or irrelevant links
+**Toxic link audit**
+- Scans backlink profile for spammy or irrelevant links
 - Prepares Google Search Console disavow file quarterly
 - Monitors link velocity for unnatural spikes
 
-### Output format
-- Active link building campaign tracker (technique, target, status, DA, anchor)
-- Monthly link acquisition report
-- Disavow file (when applicable)
-- Backlink profile health score
-
 ### KPIs tracked
-- Total backlinks (monthly)
-- Referring domains (monthly)
+- Total backlinks monthly
+- Referring domains monthly
 - Domain Rating / Domain Authority trend
 - Average DA of acquired links
 - Link velocity (links per week)
@@ -318,34 +269,28 @@ description: >
 
 **Role:** Site health & crawlability — ensures Google can find, crawl, and index every page.
 
-### What it does
-- Monitors and fixes all technical SEO issues that block rankings
-- Manages site architecture, crawl budget, and indexation
-
 ### Core skills
 
-**Crawl & indexation**
+**Crawl and indexation**
 - Monitors Google Search Console for crawl errors and coverage issues
 - Fixes 4xx, 5xx errors, and redirect chains
-- Manages robots.txt and XML sitemap (submits to Search Console weekly)
+- Manages robots.txt and XML sitemap
 
 **Site speed optimisation**
-- Implements lazy loading, image compression, browser caching
-- Minimises render-blocking resources (CSS/JS)
+- Implements lazy loading, image compression, and browser caching
+- Minimises render-blocking resources
 - Monitors Core Web Vitals and alerts if any score drops
 
-**Structured data & rich results**
-- Validates all schema markup via Google's Rich Results Test
-- Monitors rich result appearance in SERPs
+**Structured data and rich results**
+- Validates all schema markup via Google Rich Results Test
 - Fixes schema errors flagged in Search Console
 
 **Canonicalisation**
 - Adds canonical tags to all pages to prevent duplicate content
-- Manages hreflang tags for multi-language pages
 - Resolves duplicate content issues from URL parameters
 
-**Mobile & UX technical checks**
-- Ensures all pages pass Google's Mobile-Friendly Test
+**Mobile checks**
+- Ensures all pages pass Google Mobile-Friendly Test
 - Audits tap target sizes, font sizes, and viewport configuration
 
 ### KPIs tracked
@@ -360,14 +305,10 @@ description: >
 
 **Role:** Topical authority builder — plans and governs the brand's content ecosystem.
 
-### What it does
-- Builds a long-term content calendar aligned to keyword clusters and brand pillars
-- Ensures all content serves both SEO goals and brand storytelling
-
 ### Core skills
 
 **Content pillar planning**
-- Defines 4–6 core topic pillars aligned to brand positioning
+- Defines 4 to 6 core topic pillars aligned to brand positioning
 - Maps each pillar to a cluster of supporting content pieces
 - Creates pillar pages (2,000+ words) and cluster pages (1,200+ words)
 
@@ -379,11 +320,7 @@ description: >
 **Content performance audit**
 - Identifies underperforming content (traffic below target, low dwell time)
 - Recommends refresh, consolidate, or delete for each piece
-- Tracks content decay and schedules refreshes every 6 months
-
-**Brand voice & tone guidelines**
-- Ensures SEO content is consistent with the brand's tone
-- Balances keyword inclusion with natural, high-quality readability
+- Schedules content refreshes every 6 months
 
 ### KPIs tracked
 - Organic traffic per content piece
@@ -407,11 +344,11 @@ description: >
 **Local keyword targeting**
 - Identifies city/region-specific keyword variations
 - Creates location-specific landing pages where relevant
-- Optimises for "near me" and "in [city]" search queries
+- Optimises for near-me and in-city search queries
 
 **Citation building**
 - Ensures consistent NAP (Name, Address, Phone) across all directories
-- Submits to relevant local directories (e.g. Justdial, Sulekha, IndiaMART)
+- Submits to relevant local directories
 
 **Review generation**
 - Automates post-purchase review request emails
@@ -421,7 +358,7 @@ description: >
 - GBP impressions and clicks
 - Local pack appearances
 - Average star rating
-- Review count (monthly growth)
+- Review count monthly growth
 
 ---
 
@@ -433,12 +370,12 @@ description: >
 
 **SEO dashboard maintenance**
 - Maintains a live dashboard: rankings, traffic, backlinks, conversions
-- Pulls data from: Google Search Console, GA4, Ahrefs/SEMrush, Google Business Profile
+- Pulls data from Google Search Console, GA4, Ahrefs/SEMrush, Google Business Profile
 
 **Weekly performance report**
 - Compiles agent activity log into a human-readable report
 - Highlights wins, misses, and recommendations for next cycle
-- Calculates ROI of SEO efforts (organic revenue / SEO investment)
+- Calculates ROI of SEO efforts
 
 **Rank tracking**
 - Tracks daily rankings for all shortlisted keywords
@@ -455,8 +392,8 @@ description: >
 - Includes: completed tasks, current rankings, projected rankings, traffic forecast, revenue impact
 - Sends for CEO approval before next cycle begins
 
-### KPIs tracked (master dashboard)
-- Organic sessions (weekly / monthly)
+### KPIs tracked
+- Organic sessions weekly and monthly
 - Keywords in top 3 / 10 / 20
 - Domain Rating
 - Referring domains
@@ -475,9 +412,9 @@ HOUR 0
         ├── Email brief → Off-Page Agent  (authority gaps, PR opportunities)
         └── Summary    → Keyword Planner  (high-intent page gaps)
 
-HOUR 1–4  (all agents run in parallel)
+HOUR 1-4  (all agents run in parallel)
   ├── Keyword Planner Agent
-  │     ├── Shortlists 8–15 priority keywords
+  │     ├── Shortlists 8-15 priority keywords
   │     └── Feeds targets → On-Page + Off-Page + Backlink agents
   │
   ├── On-Page Agent
@@ -486,7 +423,7 @@ HOUR 1–4  (all agents run in parallel)
   │
   ├── Off-Page Agent
   │     ├── Runs PR pitches, influencer outreach, mention conversion
-  │     └── Reports acquired links → Backlink Agent (to avoid duplication)
+  │     └── Reports acquired links → Backlink Agent
   │
   ├── Backlink Agent
   │     ├── Runs broken link, skyscraper, HARO, niche edit campaigns
@@ -497,7 +434,7 @@ HOUR 1–4  (all agents run in parallel)
         └── Flags critical issues → On-Page Agent for immediate fix
 
 END OF CYCLE
-  └── Analytics & Reporting Agent
+  └── Analytics and Reporting Agent
         ├── Compiles all agent outputs into a cycle report
         ├── Calculates KPIs and ranking projections
         └── Sends CEO Report for approval
@@ -510,24 +447,24 @@ CEO APPROVAL
 
 ## 11. CEO Approval Protocol
 
-At the end of every cycle, the Analytics Agent generates a **CEO Brief** containing:
+At the end of every cycle, the Analytics Agent generates a CEO Brief containing:
 
-**Section 1 — What we did**
+**Section 1 - What we did**
 A bullet-point summary of every agent's completed tasks this cycle.
 
-**Section 2 — Rankings update**
+**Section 2 - Rankings update**
 Table of top 10 target keywords: current rank, projected rank, and estimated timeline.
 
-**Section 3 — Traffic & revenue forecast**
+**Section 3 - Traffic and revenue forecast**
 - Projected organic sessions (next 30 / 60 / 90 days)
 - Estimated organic revenue contribution
 - ROI vs. cost of running the agent system
 
-**Section 4 — Next cycle plan**
+**Section 4 - Next cycle plan**
 What the agents will do in the next cycle and why.
 
-**Section 5 — Approval request**
-One-click (or one-reply) approval to trigger the next cycle.
+**Section 5 - Approval request**
+One-click or one-reply approval to trigger the next cycle.
 
 ---
 
@@ -543,7 +480,7 @@ One-click (or one-reply) approval to trigger the next cycle.
 | Technical SEO | Continuous | Crawl health + speed fixes | Continuous |
 | Content Strategy | Weekly | Content calendar + briefs | Weekly |
 | Local SEO | Weekly | GBP updates + citations | Weekly |
-| Analytics & Reporting | End of cycle | CEO report + KPI dashboard | Per cycle |
+| Analytics and Reporting | End of cycle | CEO report + KPI dashboard | Per cycle |
 
 ---
 
